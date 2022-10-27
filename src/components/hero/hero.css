@@ -14,6 +14,7 @@
 .logo {
     width: 8.449rem;
     height: 3.813rem;
+    cursor: pointer;
 }
 
 .logo > img, .hero-img > img {
