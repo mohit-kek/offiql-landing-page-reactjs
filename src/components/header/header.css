@@ -1,0 +1,40 @@
+.header {
+    width: 100%;
+    height: 43px;
+    background-color: #171A21;
+}
+
+.header-items {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5rem;
+    padding: .8rem;
+    color: #E0ECFF;
+}
+
+.line {
+    background-color: 
+    #363A44;
+    height: 30px;
+    width: 2px;
+    position: absolute;
+    right: 7rem;
+    top: .4rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.item > i {
+    width: 1.373rem;
+    height: 1.274rem;
+    
+} 
+
+.item > span {
+    font-size: 14px;
+    font-weight: 500;
+}

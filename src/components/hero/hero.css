@@ -1,0 +1,69 @@
+.hero {
+    height: 100%;
+    width: 100%;
+    background: #0B0E15;
+    color: #ffffff;
+}
+
+.hero-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.125rem 2.313rem;
+}
+
+.logo {
+    width: 8.449rem;
+    height: 3.813rem;
+}
+
+.logo > img, .hero-img > img {
+    height: 100%;
+    width: 100%;
+}
+
+.hero-btn > button {
+    background-color: #0070E7;
+    font-size: 1.3rem;;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+.hero-btn.primary > button {
+    height: 3.25rem;
+    width: 8.563rem;
+}
+
+.hero-img-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.hero-img-heading {
+    max-width: 50.938rem;
+    min-height: 9.25rem;
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero-img {
+    max-width: 46.875rem;
+    max-height: 31.25rem;
+}
+
+.hero-btn.secondary > button {
+    height: 4.375rem;
+    width: 12.438rem;
+}
+
+
+.home-container {
+    z-index: 2;
+    width: 100%;
+}
